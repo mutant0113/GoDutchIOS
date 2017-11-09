@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EventTableViewController.loadEvents():EventTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mRef">
+            </PersistentString>
+            <PersistentString
+               value = "snapShot">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventTableViewController.viewDidLoad():EventTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Auth.auth().currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

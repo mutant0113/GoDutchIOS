@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B67074374EED16AB7545CF /* Pods_godutchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41FCD0B2DA6D42B81FD674 /* Pods_godutchTests.framework */; };
+		5B7CC6836E76FA887CACE143 /* Pods_godutchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BBAE027A73ECBC5E916379 /* Pods_godutchUITests.framework */; };
+		8523DF8DB5BFD759951E06ED /* Pods_godutch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15DF1A3CBBF045193EDEFD2 /* Pods_godutch.framework */; };
+		9A19B4B21FA1C2CF00F533ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A19B4B11FA1C2CF00F533ED /* GoogleService-Info.plist */; };
+		9A31A2141FAB153A002C0DEC /* FriendWithDeptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A31A2131FAB153A002C0DEC /* FriendWithDeptTableViewCell.swift */; };
+		9A5C5C941FA877B50044E282 /* PaidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C5C931FA877B50044E282 /* PaidTableViewCell.swift */; };
+		9A5C5C961FA8832E0044E282 /* NewEventStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C5C951FA8832E0044E282 /* NewEventStep1ViewController.swift */; };
+		9A74B7901F99C66E00FD32F8 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A74B78F1F99C66E00FD32F8 /* GroupTableViewCell.swift */; };
+		9A74B7941F99ED5000FD32F8 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A74B7931F99ED5000FD32F8 /* Group.swift */; };
+		9A7533371F9DFE9600E9421E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7533361F9DFE9600E9421E /* MainViewController.swift */; };
+		9A75333D1F9F29FF00E9421E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A75333C1F9F29FF00E9421E /* GoogleService-Info.plist */; };
+		9A8948EA1F9A0C01008E20C7 /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948E91F9A0C01008E20C7 /* GroupTableViewController.swift */; };
+		9A8948EE1F9B6230008E20C7 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948ED1F9B6230008E20C7 /* CheckViewController.swift */; };
+		9A8948F01F9B71B9008E20C7 /* NewEventStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948EF1F9B71B9008E20C7 /* NewEventStep2ViewController.swift */; };
+		9A8948F21F9B9C01008E20C7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948F11F9B9C01008E20C7 /* Event.swift */; };
+		9A8948F41F9B9C76008E20C7 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948F31F9B9C76008E20C7 /* Friend.swift */; };
+		9A8948F81F9D9C5F008E20C7 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948F71F9D9C5F008E20C7 /* EventTableViewController.swift */; };
+		9A8948FA1F9D9EB9008E20C7 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948F91F9D9EB9008E20C7 /* EventTableViewCell.swift */; };
+		9A8948FC1F9DC10E008E20C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8948FB1F9DC10E008E20C7 /* LoginViewController.swift */; };
 		9AD89CDE1F96105500C872C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD89CDD1F96105500C872C0 /* AppDelegate.swift */; };
 		9AD89CE01F96105500C872C0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD89CDF1F96105500C872C0 /* FirstViewController.swift */; };
 		9AD89CE21F96105500C872C0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD89CE11F96105500C872C0 /* SecondViewController.swift */; };
@@ -35,6 +54,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D41FCD0B2DA6D42B81FD674 /* Pods_godutchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_godutchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E25A7F23789AA58FFAFA259 /* Pods-godutchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godutchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-godutchUITests/Pods-godutchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A19B4B11FA1C2CF00F533ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A31A2131FAB153A002C0DEC /* FriendWithDeptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendWithDeptTableViewCell.swift; sourceTree = "<group>"; };
+		9A5C5C931FA877B50044E282 /* PaidTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidTableViewCell.swift; sourceTree = "<group>"; };
+		9A5C5C951FA8832E0044E282 /* NewEventStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventStep1ViewController.swift; sourceTree = "<group>"; };
+		9A74B78F1F99C66E00FD32F8 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		9A74B7931F99ED5000FD32F8 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		9A7533361F9DFE9600E9421E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9A75333C1F9F29FF00E9421E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A8948E91F9A0C01008E20C7 /* GroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		9A8948ED1F9B6230008E20C7 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		9A8948EF1F9B71B9008E20C7 /* NewEventStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventStep2ViewController.swift; sourceTree = "<group>"; };
+		9A8948F11F9B9C01008E20C7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9A8948F31F9B9C76008E20C7 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		9A8948F71F9D9C5F008E20C7 /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		9A8948F91F9D9EB9008E20C7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		9A8948FB1F9DC10E008E20C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9AD89CDA1F96105500C872C0 /* godutch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = godutch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD89CDD1F96105500C872C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AD89CDF1F96105500C872C0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +86,13 @@
 		9AD89CFB1F96105500C872C0 /* godutchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = godutchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD89CFF1F96105500C872C0 /* godutchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = godutchUITests.swift; sourceTree = "<group>"; };
 		9AD89D011F96105500C872C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3C054C04B117F06ECCBE20 /* Pods-godutchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godutchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-godutchUITests/Pods-godutchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8BBAE027A73ECBC5E916379 /* Pods_godutchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_godutchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15DF1A3CBBF045193EDEFD2 /* Pods_godutch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_godutch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF4212B027239FE2BC5E3EE /* Pods-godutch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godutch.release.xcconfig"; path = "Pods/Target Support Files/Pods-godutch/Pods-godutch.release.xcconfig"; sourceTree = "<group>"; };
+		DF8A9FF970F0BF1BC3D20439 /* Pods-godutch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godutch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-godutch/Pods-godutch.debug.xcconfig"; sourceTree = "<group>"; };
+		F69C0E1EE74C56813BB9249D /* Pods-godutchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godutchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-godutchTests/Pods-godutchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD5C8ACA48EEDFD2D989D4E /* Pods-godutchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godutchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-godutchTests/Pods-godutchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8523DF8DB5BFD759951E06ED /* Pods_godutch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B67074374EED16AB7545CF /* Pods_godutchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +116,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7CC6836E76FA887CACE143 /* Pods_godutchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2C4883B47D43BC9E0C3472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15DF1A3CBBF045193EDEFD2 /* Pods_godutch.framework */,
+				0D41FCD0B2DA6D42B81FD674 /* Pods_godutchTests.framework */,
+				B8BBAE027A73ECBC5E916379 /* Pods_godutchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9AD89CD11F96105500C872C0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +140,8 @@
 				9AD89CF31F96105500C872C0 /* godutchTests */,
 				9AD89CFE1F96105500C872C0 /* godutchUITests */,
 				9AD89CDB1F96105500C872C0 /* Products */,
+				A843FDE4E55696B2CEA1DE30 /* Pods */,
+				3F2C4883B47D43BC9E0C3472 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +158,29 @@
 		9AD89CDC1F96105500C872C0 /* godutch */ = {
 			isa = PBXGroup;
 			children = (
+				9A19B4B11FA1C2CF00F533ED /* GoogleService-Info.plist */,
 				9AD89CDD1F96105500C872C0 /* AppDelegate.swift */,
-				9AD89CDF1F96105500C872C0 /* FirstViewController.swift */,
-				9AD89CE11F96105500C872C0 /* SecondViewController.swift */,
-				9AD89CE31F96105500C872C0 /* Main.storyboard */,
 				9AD89CE61F96105500C872C0 /* Assets.xcassets */,
-				9AD89CE81F96105500C872C0 /* LaunchScreen.storyboard */,
+				9A8948ED1F9B6230008E20C7 /* CheckViewController.swift */,
+				9A8948F11F9B9C01008E20C7 /* Event.swift */,
+				9A8948F91F9D9EB9008E20C7 /* EventTableViewCell.swift */,
+				9A8948F71F9D9C5F008E20C7 /* EventTableViewController.swift */,
+				9AD89CDF1F96105500C872C0 /* FirstViewController.swift */,
+				9A8948F31F9B9C76008E20C7 /* Friend.swift */,
+				9A75333C1F9F29FF00E9421E /* GoogleService-Info.plist */,
+				9A74B7931F99ED5000FD32F8 /* Group.swift */,
+				9A74B78F1F99C66E00FD32F8 /* GroupTableViewCell.swift */,
+				9A8948E91F9A0C01008E20C7 /* GroupTableViewController.swift */,
 				9AD89CEB1F96105500C872C0 /* Info.plist */,
+				9AD89CE81F96105500C872C0 /* LaunchScreen.storyboard */,
+				9A8948FB1F9DC10E008E20C7 /* LoginViewController.swift */,
+				9AD89CE31F96105500C872C0 /* Main.storyboard */,
+				9A31A2131FAB153A002C0DEC /* FriendWithDeptTableViewCell.swift */,
+				9A7533361F9DFE9600E9421E /* MainViewController.swift */,
+				9A8948EF1F9B71B9008E20C7 /* NewEventStep2ViewController.swift */,
+				9A5C5C951FA8832E0044E282 /* NewEventStep1ViewController.swift */,
+				9A5C5C931FA877B50044E282 /* PaidTableViewCell.swift */,
+				9AD89CE11F96105500C872C0 /* SecondViewController.swift */,
 			);
 			path = godutch;
 			sourceTree = "<group>";
@@ -128,6 +203,19 @@
 			path = godutchUITests;
 			sourceTree = "<group>";
 		};
+		A843FDE4E55696B2CEA1DE30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8A9FF970F0BF1BC3D20439 /* Pods-godutch.debug.xcconfig */,
+				DAF4212B027239FE2BC5E3EE /* Pods-godutch.release.xcconfig */,
+				F69C0E1EE74C56813BB9249D /* Pods-godutchTests.debug.xcconfig */,
+				FFD5C8ACA48EEDFD2D989D4E /* Pods-godutchTests.release.xcconfig */,
+				9C3C054C04B117F06ECCBE20 /* Pods-godutchUITests.debug.xcconfig */,
+				0E25A7F23789AA58FFAFA259 /* Pods-godutchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AD89D041F96105500C872C0 /* Build configuration list for PBXNativeTarget "godutch" */;
 			buildPhases = (
+				F2249FA954A0F8630E81E425 /* [CP] Check Pods Manifest.lock */,
 				9AD89CD61F96105500C872C0 /* Sources */,
 				9AD89CD71F96105500C872C0 /* Frameworks */,
 				9AD89CD81F96105500C872C0 /* Resources */,
+				3632F594E9E9A015E22757AD /* [CP] Embed Pods Frameworks */,
+				C93CAE7B8AD7889D55E1F7CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AD89D071F96105500C872C0 /* Build configuration list for PBXNativeTarget "godutchTests" */;
 			buildPhases = (
+				983526024E16FD9DC9778D89 /* [CP] Check Pods Manifest.lock */,
 				9AD89CEC1F96105500C872C0 /* Sources */,
 				9AD89CED1F96105500C872C0 /* Frameworks */,
 				9AD89CEE1F96105500C872C0 /* Resources */,
+				72FD59B5344BEA0475C1F3D9 /* [CP] Embed Pods Frameworks */,
+				8656F143B484171A45F5CACE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AD89D0A1F96105500C872C0 /* Build configuration list for PBXNativeTarget "godutchUITests" */;
 			buildPhases = (
+				94ACCE1AC529F225364EA750 /* [CP] Check Pods Manifest.lock */,
 				9AD89CF71F96105500C872C0 /* Sources */,
 				9AD89CF81F96105500C872C0 /* Frameworks */,
 				9AD89CF91F96105500C872C0 /* Resources */,
+				EA0EB2B96D0A08D893B01CCA /* [CP] Embed Pods Frameworks */,
+				B77AF5C9D0A2B8502CC06B40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +333,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AD89CEA1F96105500C872C0 /* LaunchScreen.storyboard in Resources */,
+				9A75333D1F9F29FF00E9421E /* GoogleService-Info.plist in Resources */,
+				9A19B4B21FA1C2CF00F533ED /* GoogleService-Info.plist in Resources */,
 				9AD89CE71F96105500C872C0 /* Assets.xcassets in Resources */,
 				9AD89CE51F96105500C872C0 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +356,195 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3632F594E9E9A015E22757AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-godutch/Pods-godutch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godutch/Pods-godutch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72FD59B5344BEA0475C1F3D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godutchTests/Pods-godutchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8656F143B484171A45F5CACE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godutchTests/Pods-godutchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94ACCE1AC529F225364EA750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-godutchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983526024E16FD9DC9778D89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-godutchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77AF5C9D0A2B8502CC06B40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godutchUITests/Pods-godutchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93CAE7B8AD7889D55E1F7CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-godutch/Pods-godutch-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godutch/Pods-godutch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0EB2B96D0A08D893B01CCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godutchUITests/Pods-godutchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2249FA954A0F8630E81E425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-godutch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AD89CD61F96105500C872C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8948FA1F9D9EB9008E20C7 /* EventTableViewCell.swift in Sources */,
+				9A8948F81F9D9C5F008E20C7 /* EventTableViewController.swift in Sources */,
 				9AD89CE21F96105500C872C0 /* SecondViewController.swift in Sources */,
+				9A5C5C941FA877B50044E282 /* PaidTableViewCell.swift in Sources */,
+				9A8948F21F9B9C01008E20C7 /* Event.swift in Sources */,
+				9A8948EE1F9B6230008E20C7 /* CheckViewController.swift in Sources */,
 				9AD89CDE1F96105500C872C0 /* AppDelegate.swift in Sources */,
 				9AD89CE01F96105500C872C0 /* FirstViewController.swift in Sources */,
+				9A7533371F9DFE9600E9421E /* MainViewController.swift in Sources */,
+				9A74B7941F99ED5000FD32F8 /* Group.swift in Sources */,
+				9A5C5C961FA8832E0044E282 /* NewEventStep1ViewController.swift in Sources */,
+				9A74B7901F99C66E00FD32F8 /* GroupTableViewCell.swift in Sources */,
+				9A31A2141FAB153A002C0DEC /* FriendWithDeptTableViewCell.swift in Sources */,
+				9A8948F41F9B9C76008E20C7 /* Friend.swift in Sources */,
+				9A8948EA1F9A0C01008E20C7 /* GroupTableViewController.swift in Sources */,
+				9A8948FC1F9DC10E008E20C7 /* LoginViewController.swift in Sources */,
+				9A8948F01F9B71B9008E20C7 /* NewEventStep2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +708,7 @@
 		};
 		9AD89D051F96105500C872C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8A9FF970F0BF1BC3D20439 /* Pods-godutch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +723,7 @@
 		};
 		9AD89D061F96105500C872C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF4212B027239FE2BC5E3EE /* Pods-godutch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +738,7 @@
 		};
 		9AD89D081F96105500C872C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69C0E1EE74C56813BB9249D /* Pods-godutchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +755,7 @@
 		};
 		9AD89D091F96105500C872C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD5C8ACA48EEDFD2D989D4E /* Pods-godutchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +772,7 @@
 		};
 		9AD89D0B1F96105500C872C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3C054C04B117F06ECCBE20 /* Pods-godutchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +788,7 @@
 		};
 		9AD89D0C1F96105500C872C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E25A7F23789AA58FFAFA259 /* Pods-godutchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

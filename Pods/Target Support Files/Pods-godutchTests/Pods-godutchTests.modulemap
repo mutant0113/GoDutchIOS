@@ -1,0 +1,6 @@
+framework module Pods_godutchTests {
+  umbrella header "Pods-godutchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

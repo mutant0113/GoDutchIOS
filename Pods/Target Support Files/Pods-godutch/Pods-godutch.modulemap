@@ -1,0 +1,6 @@
+framework module Pods_godutch {
+  umbrella header "Pods-godutch-umbrella.h"
+
+  export *
+  module * { export * }
+}
