@@ -217,18 +217,18 @@
                                                     <rect key="frame" x="23" y="27" width="24" height="24"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="debt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5O-A6-Orh">
-                                                    <rect key="frame" x="371" y="29" width="36" height="21"/>
+                                                    <rect key="frame" x="370" y="29" width="36" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="s5O-A6-Orh" firstAttribute="trailing" secondItem="l4b-K9-TI3" secondAttribute="trailingMargin" constant="8" id="4IZ-8A-uyw"/>
-                                                <constraint firstItem="s5O-A6-Orh" firstAttribute="centerY" secondItem="l4b-K9-TI3" secondAttribute="centerY" id="KvE-J4-FvZ"/>
+                                                <constraint firstItem="s5O-A6-Orh" firstAttribute="centerY" secondItem="l4b-K9-TI3" secondAttribute="centerY" id="1Ua-zn-ccC"/>
                                                 <constraint firstItem="Aly-aV-I8B" firstAttribute="centerY" secondItem="l4b-K9-TI3" secondAttribute="centerY" id="NWy-qN-HF5"/>
                                                 <constraint firstItem="a5p-pm-oLN" firstAttribute="centerY" secondItem="Aly-aV-I8B" secondAttribute="centerY" id="QI4-C8-cAc"/>
                                                 <constraint firstItem="a5p-pm-oLN" firstAttribute="leading" secondItem="Aly-aV-I8B" secondAttribute="trailing" constant="8" id="QTJ-Ih-xuv"/>
+                                                <constraint firstAttribute="trailing" secondItem="s5O-A6-Orh" secondAttribute="trailing" constant="8" id="Svp-uF-urx"/>
                                                 <constraint firstItem="Aly-aV-I8B" firstAttribute="leading" secondItem="l4b-K9-TI3" secondAttribute="leadingMargin" constant="8" id="fgx-ga-9us"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -271,11 +271,11 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Fhx-Tt-xwu" firstAttribute="centerY" secondItem="qTY-DW-1ZW" secondAttribute="centerY" id="PUW-O1-a87"/>
+                                                <constraint firstItem="Fhx-Tt-xwu" firstAttribute="centerY" secondItem="qTY-DW-1ZW" secondAttribute="centerY" id="S05-Vr-5lJ"/>
                                                 <constraint firstItem="Cxc-Jy-SqI" firstAttribute="leading" secondItem="qTY-DW-1ZW" secondAttribute="leadingMargin" constant="8" id="UzJ-Fw-YWY"/>
                                                 <constraint firstItem="ZUD-XI-OYm" firstAttribute="centerY" secondItem="qTY-DW-1ZW" secondAttribute="centerY" id="VXN-ef-grG"/>
                                                 <constraint firstItem="ZUD-XI-OYm" firstAttribute="leading" secondItem="Cxc-Jy-SqI" secondAttribute="trailing" constant="8" id="XD6-sF-5jJ"/>
-                                                <constraint firstAttribute="trailing" secondItem="Fhx-Tt-xwu" secondAttribute="trailing" constant="8" id="q18-5v-sZo"/>
+                                                <constraint firstAttribute="trailing" secondItem="Fhx-Tt-xwu" secondAttribute="trailing" constant="8" id="jeQ-50-Ljh"/>
                                                 <constraint firstItem="Cxc-Jy-SqI" firstAttribute="centerY" secondItem="qTY-DW-1ZW" secondAttribute="centerY" id="v3e-Cr-69s"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -436,9 +436,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m93-Vc-pCC" customClass="GIDSignInButton">
-                                <rect key="frame" x="67" y="120" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m93-Vc-pCC" customClass="GIDSignInButton">
+                                <rect key="frame" x="20" y="281" width="374" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="loginButtonDown:" destination="2yT-2D-dDB" eventType="touchUpInside" id="KXb-vg-a7m"/>
@@ -453,6 +452,10 @@
                         <constraints>
                             <constraint firstItem="WE2-NF-BD5" firstAttribute="centerY" secondItem="wbi-fe-f2y" secondAttribute="centerY" id="2h9-2O-tW1"/>
                             <constraint firstItem="WE2-NF-BD5" firstAttribute="centerX" secondItem="wbi-fe-f2y" secondAttribute="centerX" id="It8-UX-pxI"/>
+                            <constraint firstItem="m93-Vc-pCC" firstAttribute="bottom" secondItem="WE2-NF-BD5" secondAttribute="top" id="S9S-8B-n2T"/>
+                            <constraint firstItem="m93-Vc-pCC" firstAttribute="leading" secondItem="wbi-fe-f2y" secondAttribute="leading" constant="20" id="VQX-1V-8kt"/>
+                            <constraint firstItem="m93-Vc-pCC" firstAttribute="top" secondItem="wbi-fe-f2y" secondAttribute="top" constant="281" id="fvT-w0-dgj"/>
+                            <constraint firstAttribute="trailing" secondItem="m93-Vc-pCC" secondAttribute="trailing" constant="20" id="yoR-La-3jE"/>
                         </constraints>
                     </view>
                     <connections>
@@ -462,7 +465,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H63-mJ-SOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1508.3399999999999" y="-83.413333333333327"/>
+            <point key="canvasLocation" x="-1509" y="-84"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="yl2-sM-qoP">
