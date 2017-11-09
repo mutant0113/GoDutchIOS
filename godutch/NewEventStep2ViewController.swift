@@ -94,6 +94,10 @@ class NewEventStep2ViewController: UIViewController, UITableViewDelegate, UITabl
             dictFriendsShared[String(index)] = element.toDictionary()
         }
         let value: [String:Any] = ["key": mEvent?.key ?? "", "title":mEvent?.title ?? "", "photoUrl":mEvent?.photoUrl ?? "", "subtotal":mEvent?.subtotal ?? 0, "tax":mEvent?.tax ?? 0, "total":mEvent?.total ?? 0, "friendsPaid":dictFriendsPaid, "friendsShared":dictFriendsShared]
-        mRef.child("events").child(mGroupKey).childByAutoId().setValue(value)
+        mRef.child("events").child(mGroupKey).childByAutoId().setValue(value) {
+            (error, ref) in if error == nil {
+                self.presentingViewController?.dismiss(animated: true, completion: nil)
+            }
+        }
     }
 }
